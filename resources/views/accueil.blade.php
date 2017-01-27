@@ -294,7 +294,11 @@ Accueil
 	                <a href="#" class="link"><i class="icon-link"></i></a>
 	            </div>
 	            <h2><a href="#">Audit</a></h2>
-	            <p>Analyse en profondeur de équipements - Delivrance de la certification de vos equipements, personnels.</p>
+	            <p>Analyse de votre situation en regard des législations et réglementations en vigueur. <br>
+		            Vérification de l'application des normes, règlements et procédures.<br>
+		            Evaluation des écarts avec le référentiel normatif.<br>
+		            Rapport d'audit.
+		        </p>
 			</div>
 
 			<div class="col-md-3 service-item">
@@ -305,7 +309,12 @@ Accueil
 	                <a href="#" class="link"><i class="icon-link"></i></a>
 	            </div>
 	            <h2><a href="#">Conseil</a></h2>
-	            <p>Notre expertive permet de vous proposer des solutions afin de vous aider à optimiser vos systèmes de sécurité.</p>
+	            <p>Analyse des besoins. <br>
+	            	Détection et évaluation des risques <br>
+	            	Définition des actions à mener. <br>
+	            	Propositions d'amélioration et d'évolution.
+
+	            </p>
 			</div>
 
 			<div class="col-md-3 service-item">
@@ -316,7 +325,10 @@ Accueil
 	                <a href="#" class="link"><i class="icon-link"></i></a>
 	            </div>
 	            <h2><a href="#">Formation</a></h2>
-	            <p>Des progrmammes de formation à vos attentes qui allient pédagogie et moyens matériels afin de vous donner les outils les plus efficaces.</p>
+	            <p>Pédagogie et utilisation d'outils adaptés. <br>
+	            	Connaissance aprofondie des milieux et publics concernés. <br>
+	            	Apports méthodologiques, de connaissances et de compétence.
+	            </p>
 			</div>
 
 			<div class="col-md-3 service-item">
@@ -327,7 +339,10 @@ Accueil
 	                <a href="#" class="link"><i class="icon-link"></i></a>
 	            </div>
 	            <h2><a href="#">Accompagnement</a></h2>
-	            <p>Nous pouvons vous accompagner au sein de votre entreprise afin de vous aider à appliquer votre démarche de prévention.</p>
+	            <p>Suivi des actions mises en oeuvres. <br>
+	            	Evaluation et déroulement de la démarche. <br>
+	            	Assistance et échange sur le terrain.
+	            </p>
 			</div>
 		</div>
 	</div>

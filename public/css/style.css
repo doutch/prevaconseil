@@ -124,6 +124,7 @@ body a:hover{
   -moz-transition: border-bottom-color 0.5s;
   -o-transition: border-bottom-color 0.5s;
   transition: border-bottom-color 0.5s;
+  height: 400px;
 }
 .service .service-item h2 {
   font-size: 21px;
