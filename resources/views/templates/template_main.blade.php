@@ -87,7 +87,18 @@
 
 							</li>
 
-							<li><a href="codes.html">La société</a></li>
+							<li class="dropdown">
+							
+								<a href="#" data-toggle="dropdown" class="dropdown-toggle">La société<b class="caret"></b></a>
+
+								<ul class="dropdown-menu">
+
+    								<li><a href="{{ route('societe.activites') }}">Les activités de la société</a></li>
+
+    								<li><a href="{{ route('societe.mot_directeur') }}">Le mot du directeur</a></li>
+
+								</ul>
+							</li>
 							<li><a href="{{ url('/contact') }}" class="{{ Request::segment(1) === 'contact' ? 'active' : null }}"">Contact</a></li>
 
 							<!-- Liens de connexions-->

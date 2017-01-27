@@ -18,6 +18,13 @@ h1,h2,h3,h4,h5,h6,a{
 	margin:0;	
 	font-family: 'Ubuntu', sans-serif;
 }	
+
+h1{
+
+  font-size:38px;
+  color: #B46425;
+}
+
 p{
 	margin:0;
 }
@@ -812,6 +819,17 @@ a.profil_salarie_img  {
   height:566px;
 }
 
+
+.banner_societe{
+  background:url(../img/banner_societe.jpg) no-repeat 0px 0px;
+  background-size:cover;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  -ms-background-size:cover;
+  min-height:300px;
+}
+
 .banner_wrapper_carroussel{
 
 	background-color:black;
@@ -1096,7 +1114,7 @@ ul.wmuSliderPagination {
 }
 /*-- //wmuslider --*/
 /*-- testimonials --*/
-.testimonials,.blog,.typo,.featured-services,.additional-services,.sevices,.contact{
+.testimonials,.blog,.typo,.featured-services,.additional-services,.sevices,.contact,.societe{
 	padding:3em 0;
 }
 .testimonials h3,h3.title,.featured-services h3,.additional-services h3,.sevices h3{

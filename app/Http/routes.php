@@ -24,6 +24,16 @@ Route::group(['middleware' => 'web'], function () {
         return view('accueil');
     });
 
+    //société
+    Route::get('/societe/activites', array('as' => 'societe.activites',function () {
+        return view('societe_activites');
+    }));
+
+    Route::get('/societe/mot_directeur',  array('as' => 'societe.mot_directeur',function () {
+        return view('societe_mot_directeur');
+    }));
+
+
     //formations
      Route::get('/formations/{typeFichier}',array('uses' => 'FichierController@indexWeb', 'as' => 'formations.liste'));  
 
