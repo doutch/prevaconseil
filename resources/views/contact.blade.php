@@ -27,7 +27,7 @@ Contact
 					<li><p>95110 Sannois</p></li>
 					<li>Télephone : 01.34.17.61.33</li>
 				
-					<li><a href="mailto:info@example.com">contact@preva-conseil.fr</a></li>
+					<li><a href="mailto:info@example.com">contact@preva-conseils.fr</a></li>
 				</ul>
 			</div>
 			<div class="col-md-8 contact-left">

@@ -48,8 +48,8 @@
 						<!-- Collect the nav links, forms, and other content for toggling -->
 						<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
 						 <ul class="nav navbar-nav cl-effect-14">
-							<li><a href="{{ url('/') }}" class="active">Accueil</a></li>
-							<li><a href="{{ route('formations.liste',['typeFichier' => 'catalogue']) }}"">Formations</a></li>
+							<li><a href="{{ url('/') }}" class="{{ Request::segment(1) === null ? 'active' : null }}">Accueil</a></li>
+							<li><a href="{{ route('formations.liste',['typeFichier' => 'catalogue']) }} ">Formations</a></li>
 
 				            <li class="dropdown">
 
@@ -88,14 +88,14 @@
 							</li>
 
 							<li><a href="codes.html">La société</a></li>
-							<li><a href="{{ url('/contact') }}">Contact</a></li>
+							<li><a href="{{ url('/contact') }}" class="{{ Request::segment(1) === 'contact' ? 'active' : null }}"">Contact</a></li>
 
 							<!-- Liens de connexions-->
 							@if (Auth::guest())
 
 		                        <li class="dropdown">
 
-	    							<a href="#" data-toggle="dropdown" class="dropdown-toggle">Se connecter <b class="caret"></b></a>
+	    							<a href="#" data-toggle="dropdown" class="dropdown-toggle {{ Request::segment(1) === 'login' ? 'active' : null }}">Se connecter <b class="caret"></b></a>
 
 									<ul class="dropdown-menu">
 
@@ -108,7 +108,7 @@
 								</li>
 
 
-		                        <li><a href="{{ url('/register') }}">S'inscrire</a></li>
+		                        <li><a href="{{ url('/register') }}"  class="{{ Request::segment(1) === 'register' ? 'active' : null }}">S'inscrire</a></li>
 		                    @else
 		                        <li class="dropdown">
 		                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
@@ -168,7 +168,7 @@
 								<li><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>PREVA CONSEILS.</li>							
 								<li class="adrs">5 RUE MARCELINE <br>95110 SANNOIS</li>
 								<li><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>01.34.17.61.33</li>
-								<li><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:example@mail.com">contact@preva-conseil.fr</a></li>
+								<li><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:example@mail.com">contact@preva-conseils.fr</a></li>
 							</ul>
 					</div>
 					<div class="clearfix"> </div>
