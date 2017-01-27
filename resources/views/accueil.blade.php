@@ -259,14 +259,14 @@ Accueil
 
 		<div class="row mb50">
 
-			<h1 class="text-center titre_accueil"><b>Notre mission:</b> vous aider à percevoir et eviter les missions dangereuses.</h1>
+			<h1 class="text-center titre_accueil"><b>Notre mission:</b> vous aider à diagnostiquer et éviter les situations dangereuses.</h1>
 		</div>
 
 		<div class="row  mb50">
 
-			<p class="text-center">Fort de son experience dans le domaine de la santé et de la sécurité dans le domaine professionel, Preva Conseils à pour vocation à vous former et à vous acompagner à appréhender les risques professionnels au sein de votre établissement de manière à améliorer les conditions de santé et de sécurité de vos salariés.</p>
-
-			<p  class="text-center">Fort de notre expérience, nous formons chaque acteur de votre société afin de minimiser les risques et apprendre à gérer l'urgence.</p>
+			<p class = 'text-center'>Fort de son experience, PREVA CONSEILS, cabinet conseil et organisme de formationspécialisé dans la sécurité des personnes et des biens, a pour vocation de vous former et vous accompagner dans votre démarche.</p>
+			<br>
+			<p class = 'text-center'> Nous vous aidons à appréhender et à gerer les situations de danger et les risques professionnels ou domestiques au sein de votre structure, de manière à améliorer la sécurité et les conditions de travail et de vie de vos résidents, du personnel salarié et de tout public concerné.</p>
 		</div>
 	</div>
 
@@ -288,7 +288,7 @@ Accueil
 
 			<div class="col-md-3 service-item">
 				<div class="image-container">
-	            	<img src="{{ asset('img/audit.jpg') }}" alt=" " class="img-responsive" />
+	            	<img src="{{ asset('img/303608339.jpg') }}" alt=" " class="img-responsive" />
 	                <div class="sandbox"></div>
 	                <a href="photos/service1.jpg" class="zoom" data-rel="prettyPhoto"><i class="icon-eye-open"></i></a>
 	                <a href="#" class="link"><i class="icon-link"></i></a>
@@ -303,7 +303,7 @@ Accueil
 
 			<div class="col-md-3 service-item">
 				<div class="image-container">
-	            	<img src="{{ asset('img/conseil.jpg') }}" alt=" " class="img-responsive" />
+	            	<img src="{{ asset('img/127066619.jpg') }}" alt=" " class="img-responsive" />
 	                <div class="sandbox"></div>
 	                <a href="photos/service1.jpg" class="zoom" data-rel="prettyPhoto"><i class="icon-eye-open"></i></a>
 	                <a href="#" class="link"><i class="icon-link"></i></a>
@@ -319,7 +319,7 @@ Accueil
 
 			<div class="col-md-3 service-item">
 				<div class="image-container">
-	            	<img src="{{ asset('img/formation.jpg') }}" alt=" " class="img-responsive" />
+	            	<img src="{{ asset('img/129657923.jpg') }}" alt=" " class="img-responsive" />
 	                <div class="sandbox"></div>
 	                <a href="photos/service1.jpg" class="zoom" data-rel="prettyPhoto"><i class="icon-eye-open"></i></a>
 	                <a href="#" class="link"><i class="icon-link"></i></a>
@@ -333,7 +333,7 @@ Accueil
 
 			<div class="col-md-3 service-item">
 				<div class="image-container">
-	            	<img src="{{ asset('img/accompagnement.jpg') }}" alt=" " class="img-responsive" />
+	            	<img src="{{ asset('img/426654388.jpg') }}" alt=" " class="img-responsive" />
 	                <div class="sandbox"></div>
 	                <a href="photos/service1.jpg" class="zoom" data-rel="prettyPhoto"><i class="icon-eye-open"></i></a>
 	                <a href="#" class="link"><i class="icon-link"></i></a>
@@ -362,9 +362,11 @@ Accueil
 		<div class="row mb50">
 
 			<div class="col-md-12">
-				<p class = 'text-center'>Si vous êtes à la recherche de personnes qualifiées dans le domaine de la sécurité en entreprise ou médico-social.</p>
-				<p class = 'text-center'>Si vous cherchez du travail dans les domaines du secourisme, des risques professionnels.</p>
-				<p class = 'text-center'>Un espace membre vous est dédié afin que vous puissiez déposer votre candidature ou un annonce.</p>
+				<p class = 'text-center'>Vous recherchez une personne qualifiée dans les secteurs médico-social, sanitaire et social..</p>
+				<p class = 'text-center'>Vous cherchez un emploi, un stage ou un contrat en alternance dans une structure spécialisée.</p>
+				<p class = 'text-center'>Nous vous proposons un espace dédié afin de vous mettre en relation.</p>
+				<br>
+				<b><p class = 'text-center'>Déposez votre annonce ou votre candidature.</p></b>
 			</div>
 		</div>
 
@@ -488,54 +490,6 @@ Accueil
 		</div>
 	</div>
 
-
-
-	<div class="container">
-
-		<div class="row mb50">
-
-			<div class="col-md-12">
-				 <!--  Title -->
-	            <div class="bm-header">
-	                <h2>Votre profil</h2>
-	                <div class="widget-title-bar"><div class="color-bar"></div></div>
-	            </div>
-	        </div>
-
-		</div>
-
-		<div class="row">
-
-			<p class="text-center">Retrouvez ici toute les informations relatives à votre situation.</p>
-
-		</div>
-
-		<div class="row mb50">
-
-		</div>
-
-		<div class = 'col-md-3'>
-			<a href="#" class="profil_salarie_img"></a>
-		</div>
-
-		<div class = 'col-md-3'>
-			<a href="#" class="profil_resident_img"></a>
-		</div>
-
-		<div class = 'col-md-3'>
-			<a href="#" class="profil_usager_protege_img"></a>
-		</div>
-
-		<div class = 'col-md-3'>
-			<a href="#" class="profil_usager_adapte_img"></a>
-		</div>
-
-	</div>
-
-	<div class="container">
-	</div>
-
-
 	<!-- featured-services -->
 	<div class="additional-services">
 		<div class="container">
@@ -550,7 +504,7 @@ Accueil
 				<div class="additional-service-grids">
 
 						<div class="col-md-3 additional-service-grd">
-							<img src="{{ asset('img/HANDICAPS.jpg') }}" alt=" " class="img-responsive" />
+							<img src="{{ asset('img/154153388.jpg') }}" alt=" " class="img-responsive" />
 							<br><h4>Foyer de vie, d'hébergement</h4>
 							<p>Des formations qui ont pour vocation de proposer des activités,des animations aux personnes en fonction de leur handicap  afin de leur rendre une certaine autonomie.</p>
 							<br>
@@ -562,7 +516,7 @@ Accueil
 						</div>
 
 						<div class="col-md-3 additional-service-grd">
-							<img src="{{ asset('img/HANDICAP.jpg') }}" alt=" " class="img-responsive" />
+							<img src="{{ asset('img/378347191.jpg') }}" alt=" " class="img-responsive" />
 							<br><h4>ESAT,IME</h4>
 							<p>Permettre à une personne handicapée d'exercer une activité dans un milieu protégé si elle n'a pas acquis assez d’autonomie pour travailler en milieu ordinaire ou dans une entreprise adaptée.</p>
 							<p>
@@ -573,7 +527,7 @@ Accueil
 						</div>
 
 						<div class="col-md-3 additional-service-grd">
-							<img src="{{ asset('img/SECOURISME_2.jpg') }}" alt=" " class="img-responsive" />
+							<img src="{{ asset('img/285122015.jpg') }}" alt=" " class="img-responsive" />
 							<br><h4>Secourisme</h4>
 							<p>Vous donner les moyens suivant votre activité d'effectuer les bons gestes.</p>
 							<p>
@@ -588,7 +542,7 @@ Accueil
 						</div>
 
 						<div class="col-md-3 additional-service-grd">
-							<img src="{{ asset('img/INCENDIE_1.jpg') }}" alt=" " class="img-responsive" />
+							<img src="{{ asset('img/349318949.jpg') }}" alt=" " class="img-responsive" />
 							<br><h4>Evacuation - incendie</h4>
 							<p>Apprendre à acquérir les bons comportement et utiliser les bon objets en situation réelle de départ de feu.</p>
 							<p>
