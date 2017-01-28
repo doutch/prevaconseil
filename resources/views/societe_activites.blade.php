@@ -14,7 +14,7 @@ Société - Les activités de la société
 
 	<div class = 'societe'>
 		<div class = 'container'>
-			<h1>Les activités de Prévaconseil</h1>
+			<h1>Les activités de Préva conseils</h1>
 
 			<div class = 'row'>
 				<div class = col-md-12>

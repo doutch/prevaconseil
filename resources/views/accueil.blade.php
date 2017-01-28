@@ -29,7 +29,6 @@ Accueil
         				<a href="#" class="push-candidature_slideshow">      
 		            		<span class="p1">Vous donner les outils</span>
 		            		<span class="p2">pour assurer votre prévention</span>
-		            		<span class="p3">Cliquez ici</span>
 		    			</a>
     				</div>
 				</div>
@@ -41,7 +40,6 @@ Accueil
         				<a href="#" class="push-candidature_slideshow">      
 		            		<span class="p1">Vous aider à ameliorer</span>
 		            		<span class="p2">vos conditions de sécurité</span>
-		            		<span class="p3">Cliquez ici</span>
 		    			</a>
     				</div>
 				</div>
@@ -53,7 +51,6 @@ Accueil
         				<a href="#" class="push-candidature_slideshow">      
 		            		<span class="p1">Vous former pour</span>
 		            		<span class="p2">vous rendre plus performant</span>
-		            		<span class="p3">Cliquez ici</span>
 		    			</a>
     				</div>
 				</div>
@@ -65,7 +62,6 @@ Accueil
         				<a href="#" class="push-candidature_slideshow">      
 		            		<span class="p1">Formations adaptées</span>
 		           
-		            		<span class="p3">Cliquez ici</span>
 		    			</a>
     				</div>
 				</div>
@@ -231,7 +227,6 @@ Accueil
 				<a href="#" class="push-candidature_1">      
             		<span class="p1">Visualiser</span>
             		<span class="p2">télécharger le catalogue</span>
-            		<span class="p3">Cliquez ici</span>
     			</a>
 			</div>
 
@@ -240,7 +235,6 @@ Accueil
 				<a href="#" class="push-candidature_2">      
             		<span class="p1">Facile</span>
             		<span class="p2">à lire et à comprendre</span>
-            		<span class="p3">Cliquez ici</span>
     			</a>
 				
 			</div>
@@ -249,7 +243,6 @@ Accueil
 				<a href="#" class="push-candidature_3">      
             		<span class="p1">L'expertise</span>
             		<span class="p2">de nos formateurs</span>
-            		<span class="p3">Cliquez ici</span>
     			</a>
 			</div>
 		</div>
@@ -470,20 +463,17 @@ Accueil
 					<a href="#" class="push-candidature_1">      
 	            		<span class="p1">Déposer</span>
 	            		<span class="p2">une candidature</span>
-	            		<span class="p3">Cliquez ici</span>
 	    			</a>
 
 	    			<a href="#" class="push-candidature_2">      
 	            		<span class="p1">Déposer</span>
 	            		<span class="p2">une offre</span>
-	            		<span class="p3">Cliquez ici</span>
 	    			</a>
 
 
 	    			<a href="#" class="push-candidature_3">      
 	            		<span class="p1">Des questions? </span>
 	            		<span class="p2">Contactez nous</span>
-	            		<span class="p3">Cliquez ici</span>
 	    			</a>
 				</div>
 			</div>
@@ -504,11 +494,10 @@ Accueil
 				<div class="additional-service-grids">
 
 						<div class="col-md-3 additional-service-grd">
+							<h4>EHPAD,MAS,FAM<br>Foyer de vie,hébergement</h4>
+							<br>
 							<img src="{{ asset('img/154153388.jpg') }}" alt=" " class="img-responsive" />
-							<br><h4>Foyer de vie, d'hébergement</h4>
-							<p>Des formations qui ont pour vocation de proposer des activités,des animations aux personnes en fonction de leur handicap  afin de leur rendre une certaine autonomie.</p>
-							<br>
-							<br>
+							
 							<br>
 							<div class="more">
 								<a href="single.html" class="hvr-curl-bottom-right">En savoir plus</a>
@@ -516,10 +505,11 @@ Accueil
 						</div>
 
 						<div class="col-md-3 additional-service-grd">
+							<h4>ESAT,EA</h4>
+							<br>
+							<br>
 							<img src="{{ asset('img/378347191.jpg') }}" alt=" " class="img-responsive" />
-							<br><h4>ESAT,IME</h4>
-							<p>Permettre à une personne handicapée d'exercer une activité dans un milieu protégé si elle n'a pas acquis assez d’autonomie pour travailler en milieu ordinaire ou dans une entreprise adaptée.</p>
-							<p>
+							
 							<br>
 							<div class="more">
 								<a href="single.html" class="hvr-curl-bottom-right">En savoir plus</a>
@@ -527,14 +517,12 @@ Accueil
 						</div>
 
 						<div class="col-md-3 additional-service-grd">
+
+							<h4>IME,IEM,IMPRO</h4>
+							<br>
+							<br>
 							<img src="{{ asset('img/285122015.jpg') }}" alt=" " class="img-responsive" />
-							<br><h4>Secourisme</h4>
-							<p>Vous donner les moyens suivant votre activité d'effectuer les bons gestes.</p>
-							<p>
-							<br>
-							<br>
-							<br>
-							<br>
+							
 							<br>
 							<div class="more">
 								<a href="single.html" class="hvr-curl-bottom-right">En savoir plus</a>
@@ -542,13 +530,11 @@ Accueil
 						</div>
 
 						<div class="col-md-3 additional-service-grd">
+							<h4>PME,Industries,Bureau</h4>
+							<br>
+							<br>
 							<img src="{{ asset('img/349318949.jpg') }}" alt=" " class="img-responsive" />
-							<br><h4>Evacuation - incendie</h4>
-							<p>Apprendre à acquérir les bons comportement et utiliser les bon objets en situation réelle de départ de feu.</p>
-							<p>
-							<br>
-							<br>
-							<br>
+							
 							<br>
 							<div class="more">
 								<a href="single.html" class="hvr-curl-bottom-right">En savoir plus</a>
@@ -580,11 +566,12 @@ Accueil
 						<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
 					</div>
 					<div class="col-xs-8 events-grids-btm-right">
-						<h4>30</h4>
-						<p>Années d'axpertises</p>
+						<h4>13</h4>
+						<p>Années d'expertises</p>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
+				<!--
 				<div class="col-md-4 events-grids-btm">
 					<div class="col-xs-4 events-grids-btm-left">
 						<span class="glyphicon glyphicon-tags" aria-hidden="true"></span>
@@ -605,22 +592,10 @@ Accueil
 					</div>
 					<div class="clearfix"> </div>
 				</div>
+				<-->
 				<div class="clearfix"> </div>
 			</div>
 		</div>
-	</div>
-
-	<div class="container">
-
-		<di class = 'row'>
-			<div class="col-md-12">
-				 <!--  Title -->
-	            <div class="bm-header">
-	                <h2>Nos références</h2>
-	                <div class="widget-title-bar"><div class="color-bar"></div></div>
-	            </div>
-	        </div>
-	    </div>
 	</div>
 
 
