@@ -19,10 +19,50 @@ h1,h2,h3,h4,h5,h6,a{
 	font-family: 'Ubuntu', sans-serif;
 }	
 
-h1{
 
+h5{
+
+  margin-bottom: 40px;
   font-size:38px;
   color: #B46425;
+}
+
+h5:before {
+    background-color: #B9419A;
+    padding: 0 20px;
+    content: " ";
+    margin-right: 15px;
+}
+
+dt{
+
+  font-size:26px;
+  margin-bottom:30px;
+
+}
+
+dt:before {
+
+  content: '';
+   margin-right: 15px;
+   display: inline-block;
+   width: 20px;
+   height: 20px;
+   -moz-border-radius: 15px;
+   -webkit-border-radius: 15px;
+   border-radius: 15px;
+   background-color: #A8D08C;
+}
+
+dd{
+
+  line-height: 25px;
+
+}
+
+blockquote{
+
+  border-left: 5px solid #B9419A;
 }
 
 p{
@@ -117,6 +157,31 @@ body a:hover{
 
 
  /**********************************************************/
+
+
+ .box_duerp{
+
+    background-color: #FDFDFD;
+    box-shadow: 10px 10px 5px #888888;
+    font-weight:bold;
+ }
+
+ .p_souligne{
+
+  border-bottom: 2px solid #BBBBBB;
+  text-align:center;
+
+ }
+
+  .box_duerp_champs{
+
+    background-color:#59AD31;
+    color:white;
+    padding:20px;
+    margin-bottom:20px;
+    margin-top:20px;
+
+  }
 
 
 /***************************************

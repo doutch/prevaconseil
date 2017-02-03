@@ -257,7 +257,7 @@ Accueil
 
 		<div class="row  mb50">
 
-			<p class = 'text-center'>Fort de son experience, PREVA CONSEILS, cabinet conseil et organisme de formationspécialisé dans la sécurité des personnes et des biens, a pour vocation de vous former et vous accompagner dans votre démarche.</p>
+			<p class = 'text-center'>Fort de son experience, <b>PREVA CONSEILS</b>, cabinet conseil et organisme de formationspécialisé dans la sécurité des personnes et des biens, a pour vocation de vous former et vous accompagner dans votre démarche.</p>
 			<br>
 			<p class = 'text-center'> Nous vous aidons à appréhender et à gerer les situations de danger et les risques professionnels ou domestiques au sein de votre structure, de manière à améliorer la sécurité et les conditions de travail et de vie de vos résidents, du personnel salarié et de tout public concerné.</p>
 		</div>

@@ -14,10 +14,10 @@ Société - Les activités de la société
 
 	<div class = 'societe'>
 		<div class = 'container'>
-			<h1>Les activités de Préva conseils</h1>
+			<h5 class = 'h1_page'>Les activités de Préva conseils</h5>
 
 			<div class = 'row'>
-				<div class = col-md-12>
+				<div class = 'col-md-10 col-md-offset-1'>
 					<dl>
 						<dt>Audit</dt>
 						<dd>

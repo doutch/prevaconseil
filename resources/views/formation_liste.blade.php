@@ -21,9 +21,9 @@ Liste des formations
 	<!-- //banner -->
 
 	<!-- contact -->
-	<div class="container container_corps">
+	<div class="container">
 
-		<h3 class = 'titre_accueil mt50'>Liste des formations</h3>
+		<h5>Liste des formations</h5>
 
 		<table class = 'table table-bordered mb50 mt50'>
 

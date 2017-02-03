@@ -44,6 +44,10 @@ Route::group(['middleware' => 'web'], function () {
         return view('formations_expertise');
     }));
 
+     Route::get('/formations/duerp',  array('as' => 'formations.duerp',function () {
+        return view('formations_duerp');
+    }));
+
     //liste d'annonces
     Route::get('/annonces',array('uses' => 'AnnonceController@indexWeb', 'as' => 'annonce.listeWeb'));                 //liste des annonces
     Route::get('/annonces/show/{slug}', array('uses' => 'AnnonceController@showWeb', 'as' => 'annonce.showWeb'));             //vue d'une annonce

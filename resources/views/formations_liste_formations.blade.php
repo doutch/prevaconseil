@@ -14,11 +14,17 @@ Formation - Liste des formations
 
 	<div class = 'societe'>
 		<div class = 'container'>
-			<h1>Liste des formations</h1>
+			<h5>Liste des formations</h5>
 
 			<div class = 'row'>
-				<div class = 'col-md-12'>
-					<table  class = 'table table-bordered table-striped mb50 mt50'>
+
+				<div class = 'col-md-6'>
+					<img src="{{ asset('img/INCENDIE_1.jpg') }}" alt=" " class="img-responsive img-thumbnail" />
+				</div>
+
+				<div class = 'col-md-6'>
+
+					<table  class = 'table table-bordered table-striped mb50'>
 
 						<thead>
 							<tr>
@@ -79,10 +85,15 @@ Formation - Liste des formations
 
 				<div class = 'col-md-12'>
 
-					<h3>Les modules complémentaires</h3>
+					<div class = 'text-center'>
+						<h3>Les modules complémentaires</h3>
 
-					<p>Mise en place du permis de feu</p>
-					<p>Sensibilisation sur la mise en œuvre du R.I.A</p>
+						<p><i>Mise en place du permis de feu</i></p>
+						<p><i>Sensibilisation sur la mise en œuvre du R.I.A</i></p>
+					</div>
+				</div>
+
+				<div class = 'col-md-6'>
 
 					<table  class = 'table table-bordered table-striped mb50 mt50'>
 
@@ -134,17 +145,30 @@ Formation - Liste des formations
 						</tr>
 					</table>
 				</div>
+
+				<div class = 'col-md-6 mt50'>
+					<img src="{{ asset('img/slideshow_accueil/EVACUATION_1.jpg') }}" alt=" " class="img-responsive img-thumbnail" />
+				</div>
 			</div>
 
 			<div class = 'row'>
 
 				<div class = 'col-md-12'>
 
-					<h3>Les modules complémentaires</h3>
+					<div class = 'text-center'>
 
-					<p>Les espaces d’attente sécurisé</p>
-					<p>Les mesures de confinement Les modules</p>
-				
+						<h3>Les modules complémentaires</h3>
+
+						<p><i>Les espaces d’attente sécurisé</i></p>
+						<p><i>Les mesures de confinement Les modules</i></p>
+					</div>
+				</div>
+
+				<div class = 'col-md-6 mt50'>
+					<img src="{{ asset('img/slideshow_accueil/SECOURISME.jpg') }}" alt=" " class="img-responsive img-thumbnail" />
+				</div>
+
+				<div class = 'col-md-6'>
 
 					<table  class = 'table table-bordered table-striped mb50 mt50'>
 
@@ -200,7 +224,7 @@ Formation - Liste des formations
 
 			<div class = 'row'>
 
-				<div class = 'col-md-12'>
+				<div class = 'col-md-6'>
 
 					<table class = 'table table-bordered table-striped mb50 mt50'>
 
@@ -244,6 +268,10 @@ des charges.</td>
 						</tr>
 
 					</table>
+				</div>
+
+				<div class = 'col-md-6 mt50'>
+					<img src="{{ asset('img/127066619.jpg') }}" alt=" " class="img-responsive img-thumbnail" />
 				</div>
 			</div>
 				

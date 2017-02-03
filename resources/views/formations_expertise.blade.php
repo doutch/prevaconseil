@@ -2,7 +2,7 @@
 
 @section('titre')
 
-Formation - L'expertise de nes formateurs
+Formation - L'expertise de nos formateurs
 
 @stop
 
@@ -14,10 +14,10 @@ Formation - L'expertise de nes formateurs
 
 	<div class = 'societe'>
 		<div class = 'container'>
-			<h1>L'expertise de nes formateurs</h1>
+			<h5>L'expertise de nos formateurs</h5>
 
 			<div class = 'row'>
-				<div class = col-md-12>
+				<div class = 'col-md-10 col-md-offset-1'>
 					<dl>
 						<dt>Equipe</dt>
 						<dd>
