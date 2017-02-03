@@ -49,7 +49,20 @@
 						<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
 						 <ul class="nav navbar-nav cl-effect-14">
 							<li><a href="{{ url('/') }}" class="{{ Request::segment(1) === null ? 'active' : null }}">Accueil</a></li>
-							<li><a href="{{ route('formations.liste',['typeFichier' => 'catalogue']) }} ">Formations</a></li>
+
+							<li class="dropdown">
+
+    							<a href="#" data-toggle="dropdown" class="dropdown-toggle">Formations <b class="caret"></b></a>
+
+								<ul class="dropdown-menu">
+
+    								<li><a href="{{ route('formations.liste') }}">Liste des formations</a></li>
+
+    								<li><a href="{{ route('formations.expertise') }}">Expertise</a></li>
+
+								</ul>
+
+							</li>
 
 				            <li class="dropdown">
 

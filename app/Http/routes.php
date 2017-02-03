@@ -35,7 +35,14 @@ Route::group(['middleware' => 'web'], function () {
 
 
     //formations
-     Route::get('/formations/{typeFichier}',array('uses' => 'FichierController@indexWeb', 'as' => 'formations.liste'));  
+    //Route::get('/formations/{typeFichier}',array('uses' => 'FichierController@indexWeb', 'as' => 'formations.liste'));  
+    Route::get('/formations/liste',  array('as' => 'formations.liste',function () {
+        return view('formations_liste_formations');
+    }));
+
+    Route::get('/formations/expertise',  array('as' => 'formations.expertise',function () {
+        return view('formations_expertise');
+    }));
 
     //liste d'annonces
     Route::get('/annonces',array('uses' => 'AnnonceController@indexWeb', 'as' => 'annonce.listeWeb'));                 //liste des annonces
