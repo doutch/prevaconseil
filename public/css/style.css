@@ -34,6 +34,21 @@ h5:before {
     margin-right: 15px;
 }
 
+
+h6{
+
+  margin-bottom: 40px;
+  font-size:22px;
+  color: #B46425;
+}
+
+h6:before {
+    background-color: #B9419A;
+    padding: 0 10px;
+    content: " ";
+    margin-right: 12px;
+}
+
 dt{
 
   font-size:26px;
@@ -76,6 +91,33 @@ body a:hover{
 	text-decoration:none;
 }
 
+
+/* List styling */
+.featureList, .featureList ul {
+  margin-top: 0;
+  padding-left: 2em;
+  list-style-type: none;
+}
+
+.featureList li {
+
+  margin-bottom:15px;
+}
+.featureList li:before {
+  position: absolute;
+  margin-left: -1.3em;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.featureList li.tick:before {
+  content: "\2713";
+  color: darkgreen;
+}
+.featureList li.cross:before {
+  content: "\2717";
+  color: crimson;
+}
+
 .img-thumbnail{
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -87,6 +129,14 @@ body a:hover{
 
 .mt50 {
     margin-top: 50px !important;
+}
+
+.img_inline {
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+    vertical-align:middle;
+    width:200px;
 }
 
 
@@ -110,9 +160,16 @@ body a:hover{
 
 .titre_accueil{
 
-	font-size:34px;
+	font-size:31px;
 	color:#55C4C8;
 
+}
+
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
 }
 
 
@@ -887,6 +944,103 @@ a.profil_salarie_img  {
 
 .banner_societe{
   background:url(../img/banner_societe.jpg) no-repeat 0px 0px;
+  background-size:cover;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  -ms-background-size:cover;
+  min-height:300px;
+}
+
+.banner_formation{
+  background:url(../img/banner_formation.jpg) no-repeat 0px 0px;
+  background-size:cover;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  -ms-background-size:cover;
+  min-height:300px;
+}
+
+.banner_audit{
+  background:url(../img/banner_audit.jpg) no-repeat 0px 0px;
+  background-size:cover;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  -ms-background-size:cover;
+  min-height:300px;
+}
+
+
+.banner_conseil{
+  background:url(../img/banner_conseil.jpg) no-repeat 0px 0px;
+  background-size:cover;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  -ms-background-size:cover;
+  min-height:300px;
+}
+
+
+.banner_accompagnement{
+  background:url(../img/banner_accompagnement.jpg) no-repeat 0px 0px;
+  background-size:cover;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  -ms-background-size:cover;
+  min-height:300px;
+}
+
+
+.banner_ehpad{
+  background:url(../img/banner_ehpad.jpg) no-repeat 0px 0px;
+  background-size:cover;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  -ms-background-size:cover;
+  min-height:300px;
+}
+
+
+.banner_esat{
+  background:url(../img/banner_esat.jpg) no-repeat 0px 0px;
+  background-size:cover;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  -ms-background-size:cover;
+  min-height:300px;
+}
+
+
+.banner_ime{
+  background:url(../img/banner_ime.jpg) no-repeat 0px 0px;
+  background-size:cover;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  -ms-background-size:cover;
+  min-height:300px;
+}
+
+
+.banner_pme{
+  background:url(../img/banner_pme.jpg) no-repeat 0px 0px;
+  background-size:cover;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  -ms-background-size:cover;
+  min-height:300px;
+}
+
+
+.banner_catalogue{
+  background:url(../img/banner_catalogue.jpg) no-repeat 0px 0px;
   background-size:cover;
   -webkit-background-size:cover;
   -moz-background-size:cover;

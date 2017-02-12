@@ -8,64 +8,55 @@ Formation - L'expertise de nos formateurs
 
 @section('contenu')
 
-	<div class="banner_societe">
+	<div class="banner_audit">
 		
 	</div>
 
 	<div class = 'societe'>
 		<div class = 'container'>
-			<h5>D.U.E.R.P</h5>
+			<h5>D.U.E.R.P - Spécifique au médico-social, sanitaire, social</h5>
 
-			<div class = 'row'>
-				<div class = 'col-md-8 col-md-offset-2 box_duerp'>
-					
-					<div class = 'col-md-4'>
-
-						<div class = 'row'>
-							<div class="box_duerp_champs">
-								<p class = text-center><b>D.U.E.R.P</b> Créations</p>
-							</div>
-						</div>
-
-						<div class = 'row'>
-							<div class="box_duerp_champs">
-								<p class = text-center><b>PLAN BLEU</b> Mise à jour</p>
-							</div>
-						</div>
-
-						<div class = 'row'>
-							<div class="box_duerp_champs">
-								<p class = text-center><b>Protocole</b> Analyser</p>
-							</div>
-						</div>
-						
-					</div>
-
-					<div class = 'col-md-5 col-md-offset-1'>
-						<b><p class = 'text-center' style = 'color:#59AD31;'><br>LES ETABLISSEMENTS<br>DU SECTEUR DU MEDICO.SOCIAL</p><br></b>
-
-						<p class = 'p_souligne'>Foyer d'hébergement</p>
-
-						<p class = 'p_souligne'>F.A.M</p>
-
-						<p class = 'p_souligne'>Foyer de vie</p>
-
-						<p class = 'p_souligne'>I.M.E</p>
-
-						<p class = 'p_souligne'>I.M.P.R.O</p>
-
-						<p class = 'p_souligne'>M.A.S</p>
-
-						<p class = 'p_souligne'>S.A.V.S</p>
-
-						<p class = 'p_souligne'>E.S.A.T</p>
-
-						<p class = 'p_souligne'>E.A</p>
-
-						<br>
-					</div>
-
+			<div class="row">
+				<div class = "col-md-5" style = "background-color: #2EC6DA; height:75px; padding-top: 20px;">
+					<h3 class = "text-center">D.U.E.R.P</h3>
 				</div>
+
+				<div class = "col-md-6 col-md-offset-1" style = "background-color: #2EC6DA; height:75px; padding-top: 20px;">
+					<h3 class = "text-center">Prévention des risques professionnels</h3>
+				</div>
+			</div>
+
+			<div class = 'row mt50'>
+				<div class="col-md-2" style = "background-color:#87D416;">
+					<p style = "font-size: 24px;">Création</p>
+				</div>
+
+				<div class="col-md-3 col-md-offset-1">
+					<p style = "font-size: 24px;">Analyser et identifier</p>
+				</div>
+				
+			</div>
+
+			<div class = 'row mt50 '>
+				<div class="col-md-2" style = "background-color:#87D416;">
+					<p style = "font-size: 24px;">Formation</p>
+				</div>
+
+				<div class="col-md-3 col-md-offset-1">
+					<p style = "font-size: 24px;">Impliquer</p>
+				</div>
+				
+			</div>
+
+			<div class = 'row mt50 '>
+				<div class="col-md-2" style = "background-color:#87D416;">
+					<p style = "font-size: 24px;">Mise à jour</p>
+				</div>
+
+				<div class="col-md-3 col-md-offset-1">
+					<p style = "font-size: 24px;">Actualiser</p>
+				</div>
+				
 			</div>
 
 			<div class = 'row'>
@@ -106,7 +97,7 @@ Formation - L'expertise de nos formateurs
 
 					<p>Recommandation de l’ANESM</p>
 
-					<p>ARS – IGASS - HAS</p>
+					<p>ARS - IGASS - HAS</p>
 				</div>
 
 			</div>

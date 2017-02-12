@@ -8,7 +8,7 @@ Formation - Liste des formations
 
 @section('contenu')
 
-	<div class="banner_societe">
+	<div class="banner_formation">
 		
 	</div>
 
@@ -20,6 +20,13 @@ Formation - Liste des formations
 
 				<div class = 'col-md-6'>
 					<img src="{{ asset('img/INCENDIE_1.jpg') }}" alt=" " class="img-responsive img-thumbnail" />
+
+					<br><br>
+
+					<h3>Les modules complémentaires</h3>
+
+					<p><i>Mise en place du permis de feu</i></p>
+					<p><i>Sensibilisation sur la mise en œuvre du R.I.A</i></p>
 				</div>
 
 				<div class = 'col-md-6'>
@@ -83,16 +90,6 @@ Formation - Liste des formations
 
 			<div class = 'row'>
 
-				<div class = 'col-md-12'>
-
-					<div class = 'text-center'>
-						<h3>Les modules complémentaires</h3>
-
-						<p><i>Mise en place du permis de feu</i></p>
-						<p><i>Sensibilisation sur la mise en œuvre du R.I.A</i></p>
-					</div>
-				</div>
-
 				<div class = 'col-md-6'>
 
 					<table  class = 'table table-bordered table-striped mb50 mt50'>
@@ -147,22 +144,18 @@ Formation - Liste des formations
 				</div>
 
 				<div class = 'col-md-6 mt50'>
-					<img src="{{ asset('img/slideshow_accueil/EVACUATION_1.jpg') }}" alt=" " class="img-responsive img-thumbnail" />
+					<img src="{{ asset('img/evacuation_2.jpg') }}" alt=" " class="img-responsive img-thumbnail" />
+
+					<br><br>
+
+					<h3 class="text-right">Les modules complémentaires</h3>
+
+					<p class="text-right"><i>Les espaces d’attente sécurisé</i></p>
+					<p class="text-right"><i>Les mesures de confinement Les modules</i></p>
 				</div>
 			</div>
 
 			<div class = 'row'>
-
-				<div class = 'col-md-12'>
-
-					<div class = 'text-center'>
-
-						<h3>Les modules complémentaires</h3>
-
-						<p><i>Les espaces d’attente sécurisé</i></p>
-						<p><i>Les mesures de confinement Les modules</i></p>
-					</div>
-				</div>
 
 				<div class = 'col-md-6 mt50'>
 					<img src="{{ asset('img/slideshow_accueil/SECOURISME.jpg') }}" alt=" " class="img-responsive img-thumbnail" />
@@ -265,6 +258,26 @@ Formation - Liste des formations
 							<td>Gestes et postures, programme sur mesure selon le cahier
 
 des charges.</td>
+						</tr>
+
+						<tr>
+							<td>SRPU</td>
+							<td>Sensibilisation aux risques professionnels pour les usagers.</td>
+						</tr>
+
+						<tr>
+							<td>SRHU</td>
+							<td>Sensibilisation aux risques à l'hygiène pour les usagers.</td>
+						</tr>
+
+						<tr>
+							<td>PMT</td>
+							<td>Prévention des risques de mon poste de travail.</td>
+						</tr>
+
+						<tr>
+							<td>MAP</td>
+							<td>Risques professionnels du sanitaire, social du médico-social.</td>
 						</tr>
 
 					</table>

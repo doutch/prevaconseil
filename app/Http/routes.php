@@ -36,16 +36,46 @@ Route::group(['middleware' => 'web'], function () {
 
     //formations
     //Route::get('/formations/{typeFichier}',array('uses' => 'FichierController@indexWeb', 'as' => 'formations.liste'));  
-    Route::get('/formations/liste',  array('as' => 'formations.liste',function () {
-        return view('formations_liste_formations');
-    }));
+    
 
     Route::get('/formations/expertise',  array('as' => 'formations.expertise',function () {
         return view('formations_expertise');
     }));
 
-     Route::get('/formations/duerp',  array('as' => 'formations.duerp',function () {
-        return view('formations_duerp');
+    
+
+     //services
+     Route::get('/services/accompagnement',  array('as' => 'services.accompagnement',function () {
+        return view('services_accompagnement');
+    }));
+
+    Route::get('/service/audit',  array('as' => 'services.audit',function () {
+        return view('services_audit');
+    }));
+
+     Route::get('/services/conseil',  array('as' => 'services.conseil',function () {
+        return view('services_conseil');
+    }));
+
+     Route::get('/services/formation',  array('as' => 'services.formation',function () {
+        return view('services_formations');
+    }));
+
+     //secteurs d'activite
+    Route::get('/secteurs-activite/ehpad',  array('as' => 'secteurs.ehpad',function () {
+        return view('secteurs_ehpad');
+    }));
+
+    Route::get('/secteurs-activite/esat',  array('as' => 'secteurs.esat',function () {
+        return view('secteurs_esat');
+    }));
+
+    Route::get('/secteurs-activite/ime',  array('as' => 'secteurs.ime',function () {
+        return view('secteurs_ime');
+    }));
+
+    Route::get('/secteurs-activite/pme',  array('as' => 'secteurs.pme',function () {
+        return view('secteurs_pme');
     }));
 
     //liste d'annonces
@@ -53,9 +83,19 @@ Route::group(['middleware' => 'web'], function () {
     Route::get('/annonces/show/{slug}', array('uses' => 'AnnonceController@showWeb', 'as' => 'annonce.showWeb'));             //vue d'une annonce
 
     //Contact
-	Route::get('/contact', function () {
+	Route::get('/contact', array('as' => 'contact',function () {
         return view('contact');
-    });
+      }));
+
+    //facile )à lire et à comprendre
+    Route::get('/facile-a-lire-et-a-comprendre',  array('as' => 'facile_a_lire',function () {
+        return view('facile_a_lire');
+    }));
+
+    //catalogue
+    Route::get('/catalogue',  array('as' => 'catalogue',function () {
+        return view('catalogue');
+    }));
 
 	//routes authentification
     Route::auth();

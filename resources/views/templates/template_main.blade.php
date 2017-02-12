@@ -52,13 +52,14 @@
 
 							<li class="dropdown">
 
-    							<a href="#" data-toggle="dropdown" class="dropdown-toggle">Formations <b class="caret"></b></a>
+    							<a href="#" data-toggle="dropdown" class="dropdown-toggle">Services <b class="caret"></b></a>
 
 								<ul class="dropdown-menu">
 
-    								<li><a href="{{ route('formations.liste') }}">Liste des formations</a></li>
-
-    								<li><a href="{{ route('formations.expertise') }}">Expertise</a></li>
+    								<li><a href="{{ route('services.audit') }}">Audit</a></li>
+    								<li><a href="{{ route('services.conseil') }}">Conseil</a></li>
+    								<li><a href="{{ route('services.formation') }}">Formation</a></li>
+    								<li><a href="{{ route('services.accompagnement') }}">Accompagnement</a></li>
 
 								</ul>
 
@@ -162,25 +163,25 @@
 					<div class="col-md-3 footer-grid">
 						<h3 class="title">Services</h3>
 						<ul>
-							<li><a href="#">Audit</a></li>
-							<li><a href="#">Conseil</a></li>
-							<li><a href="#">Formation</a></li>
-							<li><a href="#">Accompagnement</a></li>
+							<li><a href="{{ route('services.audit') }}">Audit</a></li>
+							<li><a href="{{ route('services.conseil') }}">Conseil</a></li>
+							<li><a href="{{ route('services.formation') }}">Formation</a></li>
+							<li><a href="{{ route('services.accompagnement') }}">Accompagnement</a></li>
 						</ul>
 					</div>
 					<div class="col-md-3 footer-grid ctact-grid">
 						<h3 class="title">Secteurs</h3>
 						 <ul>
-							<li><a href="#">Foyers de vie</a></li>
-							<li><a href="#">Foyers d'hébergement</a></li>
-							<li><a href="#">Esat</a></li>
-							<li><a href="#">Ime</a></li>
+							<li><a href="{{ route('secteurs.ehpad') }}">EHPAD, MAS, FAM<br>Foyer de vie, hébergement</a></li>
+							<li><a href="{{ route('secteurs.esat') }}">ESAT, EA</a></li>
+							<li><a href="{{ route('secteurs.ime') }}">IME, IEM, IMPRO</a></li>
+							<li><a href="{{ route('secteurs.pme') }}">PME/PMI, Industrie, Tertiaire</a></li>
 						</ul>
 					</div>
 					<div class="col-md-3 footer-grid ctact-grid">
 						<h3 class="title">Informations</h3>
 						<ul>
-							<li><a href="#">Qui somme - nous?</a></li>
+							<li><a href="#">Qui sommes - nous ?</a></li>
 							<li><a href="#">Actualités</a></li>
 							<li><a href="#">Nos références</a></li>
 							<li><a href="contact.html">Certifications</a></li>
@@ -189,7 +190,7 @@
 					<div class="col-md-3 footer-grid contact-grid">
 							<h3 class="title">Contact</h3>
 							<ul>
-								<li><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>PREVA CONSEILS.</li>							
+								<li><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>PREVA CONSEILS</li>							
 								<li class="adrs">5 RUE MARCELINE <br>95110 SANNOIS</li>
 								<li><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>01.34.17.61.33</li>
 								<li><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:example@mail.com">contact@preva-conseils.fr</a></li>
@@ -201,7 +202,7 @@
 		</div>
 		<div class="copy">
 			<div class="container">
-				<p>Copyright © 2017 Prévaconseil.</p>
+				<p>Copyright © 2017 Préva Conseils</p>
 				<div class="social-icons">
 					<ul>
 						<li><a href="#" class="fb"></a></li>

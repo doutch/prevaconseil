@@ -224,7 +224,7 @@ Accueil
 
 			<div class="col-md-3">
 				
-				<a href="#" class="push-candidature_1">      
+				<a href="catalogue" class="push-candidature_1">      
             		<span class="p1">Visualiser</span>
             		<span class="p2">télécharger le catalogue</span>
     			</a>
@@ -232,7 +232,7 @@ Accueil
 
 			<div class="col-md-3">
 
-				<a href="#" class="push-candidature_2">      
+				<a href="{{ route('facile_a_lire') }}" class="push-candidature_2">      
             		<span class="p1">Facile</span>
             		<span class="p2">à lire et à comprendre</span>
     			</a>
@@ -240,7 +240,7 @@ Accueil
 			</div>
 
 			<div class="col-md-3">
-				<a href="#" class="push-candidature_3">      
+				<a href="{{ route('formations.expertise') }}" class="push-candidature_3">      
             		<span class="p1">L'expertise</span>
             		<span class="p2">de nos formateurs</span>
     			</a>
@@ -252,14 +252,14 @@ Accueil
 
 		<div class="row mb50">
 
-			<h1 class="text-center titre_accueil"><b>Notre mission:</b> vous aider à diagnostiquer et éviter les situations dangereuses.</h1>
+			<h1 class="titre_accueil"><b>Notre mission :</b> vous aider à diagnostiquer et éviter les situations dangereuses.</h1>
 		</div>
 
 		<div class="row  mb50">
 
-			<p class = 'text-center'>Fort de son experience, <b>PREVA CONSEILS</b>, cabinet conseil et organisme de formationspécialisé dans la sécurité des personnes et des biens, a pour vocation de vous former et vous accompagner dans votre démarche.</p>
+			<p >Fort de son expérience, <b>PREVA CONSEILS</b>, cabinet conseil et organisme de formation spécialisé dans la sécurité des personnes et des biens, a pour vocation de vous former et vous accompagner dans votre démarche.</p>
 			<br>
-			<p class = 'text-center'> Nous vous aidons à appréhender et à gerer les situations de danger et les risques professionnels ou domestiques au sein de votre structure, de manière à améliorer la sécurité et les conditions de travail et de vie de vos résidents, du personnel salarié et de tout public concerné.</p>
+			<p > Nous vous aidons à appréhender et à gérer les situations de danger et les risques professionnels ou domestiques au sein de votre structure, de manière à améliorer la sécurité et les conditions de travail et de vie de vos résidents, du personnel salarié et de tout public concerné.</p>
 		</div>
 	</div>
 
@@ -279,64 +279,65 @@ Accueil
 
 		<div class="row service mb50">
 
-			<div class="col-md-3 service-item">
-				<div class="image-container">
-	            	<img src="{{ asset('img/303608339.jpg') }}" alt=" " class="img-responsive" />
-	                <div class="sandbox"></div>
-	                <a href="photos/service1.jpg" class="zoom" data-rel="prettyPhoto"><i class="icon-eye-open"></i></a>
-	                <a href="#" class="link"><i class="icon-link"></i></a>
-	            </div>
-	            <h2><a href="#">Audit</a></h2>
-	            <p>Analyse de votre situation en regard des législations et réglementations en vigueur. <br>
-		            Vérification de l'application des normes, règlements et procédures.<br>
-		            Evaluation des écarts avec le référentiel normatif.<br>
-		            Rapport d'audit.
-		        </p>
-			</div>
+			<a href="{{ route('services.audit') }}">
+				<div class="col-md-3 service-item">
+					<div class="image-container">
+		            	<img src="{{ asset('img/303608339.jpg') }}" alt=" " class="img-responsive" />
+		                <div class="sandbox"></div>
+		            </div>
+		            <h2>Audit</h2>
+		            <p>Analyse de votre situation en regard des législations et réglementations en vigueur. <br>
+			            Vérification de l'application des normes, règlements et procédures.<br>
+			            Evaluation des écarts avec le référentiel normatif.<br>
+			            Rapport d'audit.
+			        </p>
+				</div>
+			</a>
 
-			<div class="col-md-3 service-item">
-				<div class="image-container">
-	            	<img src="{{ asset('img/127066619.jpg') }}" alt=" " class="img-responsive" />
-	                <div class="sandbox"></div>
-	                <a href="photos/service1.jpg" class="zoom" data-rel="prettyPhoto"><i class="icon-eye-open"></i></a>
-	                <a href="#" class="link"><i class="icon-link"></i></a>
-	            </div>
-	            <h2><a href="#">Conseil</a></h2>
-	            <p>Analyse des besoins. <br>
-	            	Détection et évaluation des risques <br>
-	            	Définition des actions à mener. <br>
-	            	Propositions d'amélioration et d'évolution.
+			<a href="{{ route('services.conseil') }}">
+				<div class="col-md-3 service-item">
+					<div class="image-container">
+		            	<img src="{{ asset('img/127066619.jpg') }}" alt=" " class="img-responsive" />
+		                <div class="sandbox"></div>
+		            </div>
+		            <h2>Conseil</h2>
+		            <p>Analyse des besoins. <br>
+		            	Détection et évaluation des risques <br>
+		            	Définition des actions à mener. <br>
+		            	Propositions d'amélioration et d'évolution.
 
-	            </p>
-			</div>
+		            </p>
+				</div>
+			</a>
 
-			<div class="col-md-3 service-item">
-				<div class="image-container">
-	            	<img src="{{ asset('img/129657923.jpg') }}" alt=" " class="img-responsive" />
-	                <div class="sandbox"></div>
-	                <a href="photos/service1.jpg" class="zoom" data-rel="prettyPhoto"><i class="icon-eye-open"></i></a>
-	                <a href="#" class="link"><i class="icon-link"></i></a>
-	            </div>
-	            <h2><a href="#">Formation</a></h2>
-	            <p>Pédagogie et utilisation d'outils adaptés. <br>
-	            	Connaissance aprofondie des milieux et publics concernés. <br>
-	            	Apports méthodologiques, de connaissances et de compétence.
-	            </p>
-			</div>
+			<a href="{{ route('services.formation') }}">
+				<div class="col-md-3 service-item">
+					<div class="image-container">
+		            	<img src="{{ asset('img/129657923.jpg') }}" alt=" " class="img-responsive" />
+		                <div class="sandbox"></div>
+		            </div>
+		            <h2><a href="{{ route('services.formation') }}">Formation</h2>
+		            <p>Pédagogie et utilisation d'outils adaptés. <br>
+		            	Connaissance approfondie des milieux et publics concernés. <br>
+		            	Apports méthodologiques, de connaissances et de compétences.
+		            </p>
+				</div>
+			</a>
 
-			<div class="col-md-3 service-item">
-				<div class="image-container">
-	            	<img src="{{ asset('img/426654388.jpg') }}" alt=" " class="img-responsive" />
-	                <div class="sandbox"></div>
-	                <a href="photos/service1.jpg" class="zoom" data-rel="prettyPhoto"><i class="icon-eye-open"></i></a>
-	                <a href="#" class="link"><i class="icon-link"></i></a>
-	            </div>
-	            <h2><a href="#">Accompagnement</a></h2>
-	            <p>Suivi des actions mises en oeuvres. <br>
-	            	Evaluation et déroulement de la démarche. <br>
-	            	Assistance et échange sur le terrain.
-	            </p>
-			</div>
+			<a href="{{ route('services.accompagnement') }}">
+				<div class="col-md-3 service-item">
+					<div class="image-container">
+		            	<img src="{{ asset('img/426654388.jpg') }}" alt=" " class="img-responsive" />
+		                <div class="sandbox"></div>
+		            </div>
+		            <h2>Accompagnement</h2>
+		            <p>Suivi des actions mises en oeuvre. <br>
+		            	Evaluation et déroulement de la démarche. <br>
+		            	Assistance et échanges sur le terrain.
+		            </p>
+				</div>
+			</a>
+
 		</div>
 	</div>
 
@@ -355,11 +356,11 @@ Accueil
 		<div class="row mb50">
 
 			<div class="col-md-12">
-				<p class = 'text-center'>Vous recherchez une personne qualifiée dans les secteurs médico-social, sanitaire et social..</p>
-				<p class = 'text-center'>Vous cherchez un emploi, un stage ou un contrat en alternance dans une structure spécialisée.</p>
-				<p class = 'text-center'>Nous vous proposons un espace dédié afin de vous mettre en relation.</p>
+				<p >Vous recherchez une personne qualifiée dans les secteurs médico-social, sanitaire et social.</p>
+				<p >Vous cherchez un emploi, un stage ou un contrat en alternance dans une structure spécialisée.</p>
+				<p >Nous vous proposons un espace dédié afin de vous mettre en relation.</p>
 				<br>
-				<b><p class = 'text-center'>Déposez votre annonce ou votre candidature.</p></b>
+		
 			</div>
 		</div>
 
@@ -406,7 +407,7 @@ Accueil
 					<div class="mnth-date">
 					
 						<div class="more m1">
-							<a href="single.html" class="hvr-curl-bottom-right">Toute les offres</a>
+							<a href="single.html" class="hvr-curl-bottom-right">Toutes les offres</a>
 						</div>
 					</div>
 				</div>
@@ -451,7 +452,7 @@ Accueil
 					<div class="mnth-date">
 						
 						<div class="more m1">
-							<a href="single.html" class="hvr-curl-bottom-right">Toute les candidatures</a>
+							<a href="single.html" class="hvr-curl-bottom-right">Toutes les candidatures</a>
 						</div>
 					</div>
 				</div>
@@ -471,7 +472,7 @@ Accueil
 	    			</a>
 
 
-	    			<a href="#" class="push-candidature_3">      
+	    			<a href="{{ route('contact') }}" class="push-candidature_3">      
 	            		<span class="p1">Des questions? </span>
 	            		<span class="p2">Contactez nous</span>
 	    			</a>
@@ -494,50 +495,50 @@ Accueil
 				<div class="additional-service-grids">
 
 						<div class="col-md-3 additional-service-grd">
-							<h4>EHPAD,MAS,FAM<br>Foyer de vie,hébergement</h4>
+							<h4>EHPAD, MAS, FAM<br>Foyer de vie, hébergement</h4>
 							<br>
 							<img src="{{ asset('img/154153388.jpg') }}" alt=" " class="img-responsive" />
 							
 							<br>
 							<div class="more">
-								<a href="single.html" class="hvr-curl-bottom-right">En savoir plus</a>
+								<a href="{{ route('secteurs.ehpad') }}" class="hvr-curl-bottom-right">En savoir plus</a>
 							</div>
 						</div>
 
 						<div class="col-md-3 additional-service-grd">
-							<h4>ESAT,EA</h4>
+							<h4>ESAT, EA</h4>
 							<br>
 							<br>
 							<img src="{{ asset('img/378347191.jpg') }}" alt=" " class="img-responsive" />
 							
 							<br>
 							<div class="more">
-								<a href="single.html" class="hvr-curl-bottom-right">En savoir plus</a>
+								<a href="{{ route('secteurs.esat') }}" class="hvr-curl-bottom-right">En savoir plus</a>
 							</div>
 						</div>
 
 						<div class="col-md-3 additional-service-grd">
 
-							<h4>IME,IEM,IMPRO</h4>
+							<h4>IME, IEM, IMPRO</h4>
 							<br>
 							<br>
 							<img src="{{ asset('img/285122015.jpg') }}" alt=" " class="img-responsive" />
 							
 							<br>
 							<div class="more">
-								<a href="single.html" class="hvr-curl-bottom-right">En savoir plus</a>
+								<a href="{{ route('secteurs.ime') }}" class="hvr-curl-bottom-right">En savoir plus</a>
 							</div>
 						</div>
 
 						<div class="col-md-3 additional-service-grd">
-							<h4>PME,Industries,Bureau</h4>
+							<h4>PME/PMI, Industrie, Tertiaire</h4>
 							<br>
 							<br>
 							<img src="{{ asset('img/349318949.jpg') }}" alt=" " class="img-responsive" />
 							
 							<br>
 							<div class="more">
-								<a href="single.html" class="hvr-curl-bottom-right">En savoir plus</a>
+								<a href="{{ route('secteurs.pme') }}" class="hvr-curl-bottom-right">En savoir plus</a>
 							</div>
 						</div>
 
@@ -567,7 +568,7 @@ Accueil
 					</div>
 					<div class="col-xs-8 events-grids-btm-right">
 						<h4>13</h4>
-						<p>Années d'expertises</p>
+						<p>Années d'expertise</p>
 					</div>
 					<div class="clearfix"> </div>
 				</div>

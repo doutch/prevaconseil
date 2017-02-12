@@ -8,7 +8,7 @@ Formation - L'expertise de nos formateurs
 
 @section('contenu')
 
-	<div class="banner_societe">
+	<div class="banner_formation">
 		
 	</div>
 
