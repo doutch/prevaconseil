@@ -40,10 +40,20 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						  </button>
-							<div class="logo">
-								<a class="navbar-brand" href="{{ url('/') }}"><img src="{{ asset('img/Logo-PrevaConseils-medium.png') }}" alt=" " class="img-responsive" /><p class = "sstitre_logo">Conseil et sécurité à la formation</p></a>
+						  	<div class="row">
+						  		<div class = "col-md-5">
+									<div class="logo">
+										<a class="navbar-brand" href="{{ url('/') }}"><img src="{{ asset('img/Logo-PrevaConseils-medium.png') }}" alt=" " class="img-responsive" /></a>
+									</div>
+								</div>
+
+								<div class = "col-md-7">
+									<p class = "sstitre_logo">Formation Audit Conseil en sécurité</p>
+								</div>
 							</div>
-						</div>
+					
+
+						<div class="row">
 
 						<!-- Collect the nav links, forms, and other content for toggling -->
 						<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
@@ -65,7 +75,7 @@
 
 							</li>
 
-				            <li class="dropdown">
+				    {{--     <li class="dropdown">
 
     							<a href="#" data-toggle="dropdown" class="dropdown-toggle">Annonces <b class="caret"></b></a>
 
@@ -79,7 +89,7 @@
 
 								</ul>
 
-							</li>
+							</li> --}}
 
 							<li class="dropdown">
 
@@ -87,15 +97,15 @@
 
 								<ul class="dropdown-menu">
 
-    								<li><a href="#">Régler les factures</a></li>
+    							{{-- 	<li><a href="#">Régler les factures</a></li>  --}}
 
-    								<li><a href="#">Evaluation des formations</a></li>
+    							{{-- 	<li><a href="#">Evaluation des formations</a></li>  --}}
 
-    								<li><a href="#">Newsletter</a></li>
+    							{{-- 	<li><a href="#">Newsletter</a></li>  --}}
 
-    								<li><a href="#">Information sécurité</a></li>
+    							{{-- 	<li><a href="#">Information sécurité</a></li>  --}}
 
-    								<li><a href="#">Réglementation</a></li>
+    								<li><a href="{{ route('infos.reglementation') }}">Réglementation</a></li>
 
 								</ul>
 
@@ -116,7 +126,7 @@
 							<li><a href="{{ url('/contact') }}" class="{{ Request::segment(1) === 'contact' ? 'active' : null }}"">Contact</a></li>
 
 							<!-- Liens de connexions-->
-							@if (Auth::guest())
+					{{--  		@if (Auth::guest())
 
 		                        <li class="dropdown">
 
@@ -144,9 +154,10 @@
 		                                <li><a href="{{ url('/logout') }}"><i class="fa fa-btn fa-sign-out"></i>Déconnexion</a></li>
 		                            </ul>
 		                        </li>
-		                    @endif
+		                    @endif --}}
 						  </ul>
 						</div><!-- /.navbar-collapse -->
+						</div>
 					</nav>
 				</div>
 			</div>
@@ -202,7 +213,7 @@
 		</div>
 		<div class="copy">
 			<div class="container">
-				<p>Copyright © 2017 Préva Conseils</p>
+				<p class = "text-center">Copyright © 2017 Préva Conseils</p>
 				<div class="social-icons">
 					<ul>
 						<li><a href="#" class="fb"></a></li>

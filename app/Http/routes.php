@@ -78,6 +78,12 @@ Route::group(['middleware' => 'web'], function () {
         return view('secteurs_pme');
     }));
 
+    //Infos pratiques
+     Route::get('/infos-pratiques/reglementation',  array('as' => 'infos.reglementation',function () {
+        return view('infos_reglementation');
+    }));
+
+
     //liste d'annonces
     Route::get('/annonces',array('uses' => 'AnnonceController@indexWeb', 'as' => 'annonce.listeWeb'));                 //liste des annonces
     Route::get('/annonces/show/{slug}', array('uses' => 'AnnonceController@showWeb', 'as' => 'annonce.showWeb'));             //vue d'une annonce

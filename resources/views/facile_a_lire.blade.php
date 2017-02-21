@@ -7,13 +7,14 @@ Facile à lire et à comprendre
 @stop
 
 @section('contenu')
-
+<!--
 	<div class="banner_catalogue">
 		
 	</div>
-
+-->
 	<div class = 'societe'>
 		<div class = 'container'>
+
 			<h5 style = "font-size:36px;">Facile à lire et à comprendre</h5>
 
 			
@@ -128,7 +129,7 @@ Facile à lire et à comprendre
 
 			<div class = 'row mt50 '>
 
-				<h6>L’employeur prend les mesures nécessaires pour assurer la sécurité et protéger la santé physique et mentale des travailleurs</h6>
+				<h6>L’employeur prend les mesures nécessaires pour assurer la sécurité et protéger <br> &nbsp; &nbsp; &nbsp; &nbsp; la santé physique et mentale des travailleurs</h6>
 			</div>
 
 			<div class = 'row mt50'>

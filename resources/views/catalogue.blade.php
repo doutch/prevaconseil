@@ -8,9 +8,11 @@ Télécharger le catalogue
 
 @section('contenu')
 
+	<!--
 	<div class="banner_catalogue">
 		
 	</div>
+-->
 
 	<div class = 'societe'>
 		<div class = 'container'>
