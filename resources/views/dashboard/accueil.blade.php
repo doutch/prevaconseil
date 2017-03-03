@@ -72,7 +72,7 @@ Tableau de bord
 	@endforeach
 
 	    
-    @if(session('statut') == 'user')
+    @if(session('statut') != 'admin')
 
 	    <!-- Controle du profil -->
 		<div class="col-lg-6 col-xs-6">

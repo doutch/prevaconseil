@@ -10,7 +10,11 @@ class ProfilController extends Controller
 {
     public function index(Request $request){
 
-    	return view('dashboard.profil',['user_name' => $request->user()->name,'user_email' => $request->user()->email]);
+    	if (session('statut') === 'employeur')
+    		return view('dashboard.profil_employeur_create',['prenom' => $request->user()->firstname,'nom' => $request->user()->name,'email' => $request->user()->email]);
+
+    	else if(session('statut') === 'demandeur_emploi')
+    		return view('dashboard.profil_demandeur_emploi_create',['prenom' => $request->user()->firstname,'nom' => $request->user()->name,'email' => $request->user()->email]);
     }
 
 

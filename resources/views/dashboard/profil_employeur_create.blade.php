@@ -2,7 +2,7 @@
 
 @section('titre')
 
-Votre profil
+Création de votre profil
 
 @stop
 

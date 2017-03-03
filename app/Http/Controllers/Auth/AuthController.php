@@ -82,10 +82,13 @@ class AuthController extends Controller
     protected function validator(array $data)
     {
         return Validator::make($data, [
-            'name' => 'required|max:255',
-            'email' => 'required|email|max:255|unique:users',
-            'password' => 'required|min:6|confirmed',
-            'role' => 'required|integer',   //ajout
+            
+            'name'      => 'required|max:255',
+            'email'     => 'required|email|max:255|unique:users',
+            'password'  => 'required|min:6|confirmed',
+            'role'      => 'required|integer',   //ajout
+            'firstname' => 'required|max:255',  //ajout
+
         ]);
     }
 
@@ -100,10 +103,11 @@ class AuthController extends Controller
         //$this->redirectTo = '/post_register';
 
         return User::create([
+            'firstname' => $data['firstname'],  //ajout
             'name' => $data['name'],
             'email' => $data['email'],
             'password' => bcrypt($data['password']),
-            'id_role' => $data['role'], //ajout
+            'id_role' => $data['role'],         //ajout
         ]);
     }
 

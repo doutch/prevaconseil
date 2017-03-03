@@ -12,6 +12,9 @@
         <!-- CSS perso -->
         <link href="{{ asset('css/style.css') }}" rel="stylesheet" type="text/css" >
 
+        <!-- Formulaire connexion et inxcription-->
+        <link href="{{ asset('css/sign_in_up.css') }}" rel="stylesheet" type="text/css" >
+
         <!-- Polices -->
         <link href='//fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,400italic,500,500italic,700,700italic' rel='stylesheet' type='text/css'>
 		<link href='//fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
@@ -126,19 +129,19 @@
 							<li><a href="{{ url('/contact') }}" class="{{ Request::segment(1) === 'contact' ? 'active' : null }}"">Contact</a></li>
 
 							<!-- Liens de connexions-->
-					{{--  		@if (Auth::guest())
+					 		@if (Auth::guest())
 
 		                        <li class="dropdown">
 
-	    							<a href="#" data-toggle="dropdown" class="dropdown-toggle {{ Request::segment(1) === 'login' ? 'active' : null }}">Se connecter <b class="caret"></b></a>
+	    							<a href="{{ url('/login') }}">Se connecter </a>
 
-									<ul class="dropdown-menu">
+							{{-- 		<ul class="dropdown-menu">
 
-	    								<li><a href="{{ url('/login') }}">Espace client</a></li>
+	    									<li><a href="{{ url('/login') }}">Espace client</a></li>
 
-	    								<li><a href="#">Espace partenaire</a></li>
+	    									<li><a href="#">Espace partenaire</a></li>
 
-									</ul>
+										</ul> --}}
 
 								</li>
 
@@ -154,7 +157,7 @@
 		                                <li><a href="{{ url('/logout') }}"><i class="fa fa-btn fa-sign-out"></i>Déconnexion</a></li>
 		                            </ul>
 		                        </li>
-		                    @endif --}}
+		                    @endif 
 						  </ul>
 						</div><!-- /.navbar-collapse -->
 						</div>

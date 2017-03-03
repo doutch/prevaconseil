@@ -7,50 +7,37 @@ Connexion
 @stop
 
 @section('contenu')
-    <div class="container">
-        <div class="row  mb50 mt50">
-             <div class="col-md-8 col-md-offset-2 contact-left">
-                {!! Form::open(array('url' => '/login','class' => 'form-horizontal')) !!}
 
-                    <div class="form-group {{ $errors->has('email') ? 'has-error' : '' }}">
+    <!-- main -->
+    <div class=container">
+      
+        <div id="w3ls_form" class="signin-form">
+            <!-- Sign In Form -->
+            {!! Form::open(array('url' => '/login','id' => 'signin','method' => 'POST')) !!}
 
-                        {!! Form::email('email', null ,['required', 'placeholder' => 'Email *','value' => "{{ old('email') }}",'style' =>'margin-left:0px;']) !!}
-                        {{ $errors->first('email', '<small class="help-block">:message</small>') }}
+                <h2>Connexion</h2>
 
-                    </div>
+                {!! Form::email('email', null ,['required', 'placeholder' => 'Email *','value' => "{{ old('email') }}"]) !!}
+                {{ $errors->first('email', '<small class="help-block">:message</small>') }}
 
-                    <div class="form-group {{ $errors->has('password') ? 'has-error' : '' }}">
 
-                        {!! Form::password('password', null ,['required', 'placeholder' => 'Mot de passe *']) !!}
-                        {{ $errors->first('password', '<small class="help-block">:message</small>') }}
+                {!! Form::password('password',['required', 'placeholder' => "Mot de passe *"]) !!}
+                {{ $errors->first('password', '<small class="help-block">:message</small>') }}
 
-                    </div>
+         
+                <input type="checkbox" id="brand" value="">
+                <label for="brand"><span></span> Rester connecté</label> 
 
-                    <div class="form-group">
-                        
-                        <div class="checkbox">
-                            <label>
-                                <input type="checkbox" name="remember"> Se souvenir de moi
-                            </label>
-                        </div>
-                      
-                    </div>
+                <input type="submit" value="Connexion">
 
-                    <div class="form-group">
-                       
-                        <button type="submit" class="btn btn-primary">
-                            <i class="fa fa-btn fa-sign-in"></i>Se connecter
-                        </button>
+                <div class="signin-agileits-bottom"> 
+                    <p><a href="{{ url('/password/reset') }}">Mot de passe oublié?</a></p>    
+                </div> 
 
-                        <a class="btn btn-link" href="{{ url('/password/reset') }}">Mot de passe oublié?</a>  
-                        
-                    </div>
-
-                    {!! Form::token() !!}
+                {!! Form::token() !!}
 
             {!! Form::close() !!}
-        </div>
-            
+            <!-- Sign up Form-->
         </div>
     </div>
 @stop
