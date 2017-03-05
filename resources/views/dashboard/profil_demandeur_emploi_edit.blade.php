@@ -26,12 +26,12 @@ Création de votre votre profil
     			<div class="box-header with-border">
 						
 					<div class="box-header with-border">
-						<h3>Créez votre profil</h3>
+						<h3>Modifiez votre profil</h3>
 					</div>
 							  
 					<div class="box-body">
 							  		
-						{!! Form::open(['method' => 'POST','role' => 'form','files' => true,'route' => array('profil.store')]) !!}
+						{!! Form::open(['method' => 'PUT','role' => 'form','files' => true,'route' => array('profil.update',$profil->id_profil)]) !!}
 
 				  			<div class="row">
 
@@ -39,7 +39,7 @@ Création de votre votre profil
 						  			<div class = 'form-group'>
 
 						  				{!! Form::label('civilite','Civilité*') !!}
-						  				{!! Form::select('civilite',['Mr' => 'Mr','Mme' => 'Mme']) !!}
+						  				{!! Form::select('civilite',['Mr' => 'Mr','Mme' => 'Mme'],$profil->civilite) !!}
 						
 						  			</div> 
 						  		</div>
@@ -64,7 +64,7 @@ Création de votre votre profil
 				  			<div class = 'form-group'>
 
 				  				{!! Form::label('email','Email *') !!}
-				  				{!! Form::text('email',$email ,['required' => 'required','class' => 'form-control']) !!}
+				  				{!! Form::text('email',$profil->email ,['required' => 'required','class' => 'form-control']) !!}
 				
 				  			</div> 
 
@@ -74,7 +74,7 @@ Création de votre votre profil
 						  			<div class = 'form-group'>
 
 						  				{!! Form::label('date_naissance','Date de naissance *') !!}
-				  						{!! Form::text('date_naissance',null ,['required' => 'required','class' => 'form-control']) !!}
+				  						{!! Form::text('date_naissance',$profil->date_naissance ,['required' => 'required','class' => 'form-control']) !!}
 						
 						  			</div> 
 						  		</div>
@@ -83,7 +83,7 @@ Création de votre votre profil
 						  			<div class = 'form-group'>
 
 						  				{!! Form::label('telephone','N. de téléphone *') !!}
-				  						{!! Form::text('telephone',null ,['required' => 'required','class' => 'form-control']) !!}
+				  						{!! Form::text('telephone',$profil->telephone ,['required' => 'required','class' => 'form-control']) !!}
 						
 						  			</div> 
 						  		</div>
@@ -93,7 +93,7 @@ Création de votre votre profil
 				  			<div class = 'form-group'>
 
 				  				{!! Form::label('adresse','Adresse *') !!}
-				  				{!! Form::text('adresse',null ,['required' => 'required','class' => 'form-control']) !!}
+				  				{!! Form::text('adresse',$profil->adresse ,['required' => 'required','class' => 'form-control']) !!}
 				
 				  			</div> 
 
@@ -103,7 +103,7 @@ Création de votre votre profil
 						  			<div class = 'form-group'>
 
 						  				{!! Form::label('code_postal','Code postal *') !!}
-						  				{!! Form::text('code_postal',null ,['required' => 'required','class' => 'form-control']) !!}
+						  				{!! Form::text('code_postal',$profil->code_postal ,['required' => 'required','class' => 'form-control']) !!}
 						
 						  			</div> 
 						  		</div>
@@ -112,7 +112,7 @@ Création de votre votre profil
 						  			<div class = 'form-group'>
 
 						  				{!! Form::label('ville','Ville *') !!}
-						  				{!! Form::text('ville',null ,['required' => 'required','class' => 'form-control']) !!}
+						  				{!! Form::text('ville',$profil->ville ,['required' => 'required','class' => 'form-control']) !!}
 						
 						  			</div> 
 						  		</div>
@@ -122,7 +122,7 @@ Création de votre votre profil
 				  			<div class = 'form-group'>
 
 				  				{!! Form::label('photo','Photo') !!}
-				  				{!! Form::file('photo',null ,['class' => 'form-control']) !!}
+				  				{!! Form::file('photo',null,['class' => 'form-control']) !!}
 				
 				  			</div> 
 

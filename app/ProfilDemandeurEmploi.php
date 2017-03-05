@@ -14,7 +14,7 @@ class ProfilDemandeurEmploi extends Model
 	protected $table = 'profils_demandeur_emploi';
 
 
-	protected $fillable = array('nom','prenom','date_naissance','adresse','telephone','photo');
+	protected $fillable = array('civilite','email','date_naissance','adresse','telephone','cp','ville','photo');
 
 	protected $primaryKey = 'id_profil';
 
